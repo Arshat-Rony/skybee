@@ -1,0 +1,22 @@
+.banner {
+    position: relative;
+}
+
+.heading {
+    background-image: linear-gradient(to right, #4528DC, #57048A);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.banner::before {
+    content: '';
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

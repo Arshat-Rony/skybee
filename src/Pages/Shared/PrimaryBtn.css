@@ -1,0 +1,10 @@
+.primary_btn {
+    transition: all 0.8s;
+}
+
+.primary_btn:hover {
+    background-image: linear-gradient(to right, #4528DC, #57048A);
+    border-style: solid;
+    border-image:
+        linear-gradient(to right, #57048A, #4528DC, #57048A);
+}
