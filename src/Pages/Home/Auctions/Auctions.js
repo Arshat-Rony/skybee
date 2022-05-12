@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useData from '../../../hooks/usedata';
 import Auction from '../Auction';
+import { FcRight } from "react-icons/fc"
 
 const Auctions = () => {
     const url = "auctions.json"
@@ -13,7 +14,13 @@ const Auctions = () => {
                 <p className='heading font-bold mb-6 uppercase'>Auctions</p>
                 <div className='relative z-10 w-[100px] h-1 bg-gradient-to-r from-accent to-neutral'></div>
             </div>
-            <h2 className='text-3xl font-bold font-secondary mb-12'>Live Auctions</h2>
+            <div className='flex items-center justify-between'>
+                <h2 className='text-3xl font-bold font-secondary mb-12'>Live Auctions</h2>
+                <button className="btn-link btn text-white hover:translate-x-2 hover:text-accent">
+                    Explore All
+                    <FcRight className='text-xl ml-3 ' />
+                </button>
+            </div>
             <div className="auctions flex flex-col lg:flex-row flex-nowrap gap-4">
                 {
                     data.slice((number - 4), number).map(auction => <Auction

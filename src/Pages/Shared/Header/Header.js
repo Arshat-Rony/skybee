@@ -7,8 +7,8 @@ const Header = () => {
         <li><a>Contact</a></li>
     </>
     return (
-        <div className='bg-primary w-screen py-5 overflow-hidden'>
-            <div class="navbar text-white">
+        <div className='bg-primary w-screen py-5  lg:pr-20'>
+            <div class="navbar text-white font-secondary">
                 <div class="flex-1 justify-between">
                     <a class="btn btn-ghost normal-case text-xl flex items-center justify-center">
                         <img src={logo} alt="logo" />
