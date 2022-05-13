@@ -3,7 +3,7 @@ import React from 'react';
 const Auction = ({ auction }) => {
     const { name, personName, thumbpicture, balance } = auction;
     return (
-        <div class="card w-96 shadow-xl bg-secondary">
+        <div class="card  shadow-xl bg-secondary">
             <figure class="px-10 pt-10">
                 <img src={thumbpicture} alt="Shoes" class="rounded-xl" />
             </figure>

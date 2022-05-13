@@ -20,11 +20,6 @@ const Artists = () => {
             </div>
             <div className='flex items-center justify-between'>
                 <h2 className='text-3xl font-bold font-secondary mb-8  text-white'>Popular Collections</h2>
-
-                <button className="btn-link btn text-white hover:translate-x-2 hover:text-accent">
-                    Explore All
-                    <FcRight className='text-xl ml-3 ' />
-                </button>
             </div>
 
             <div className="artists grid grid-cols-1 lg:grid-cols-3 lg:gap-6">

@@ -10,7 +10,7 @@ const Banner = () => {
             background: `url(${bgpic})`,
             backgroundSize: 'cover'
         }} className='banner text-white min-h-[70vh] px-20'>
-            <div className='mt-24 relative z-10'>
+            <div className='pt-24 relative z-10'>
                 <div className='flex items-center gap-4'>
                     <p className='heading font-bold mb-6'>NETSTORM</p>
                     <div className='relative z-10 w-[100px] h-1 bg-gradient-to-r from-accent to-neutral'></div>
