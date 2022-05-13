@@ -9,7 +9,7 @@ const ExclusiveSingle = ({ item, setBid }) => {
     const { name, thumbpicture, price, ethar } = item;
     const [user] = useAuthState(auth)
     return (
-        <div class="card transition-all duration-75 shadow-xl text-white bg-secondary mt-10 lg:mt-4 hover:translate-y-2">
+        <div class="card transition-all ease-in-out delay-150  shadow-xl text-white bg-secondary mt-10 lg:mt-4 hover:-translate-y-2 duration-75">
             <figure class="px-10 pt-10">
                 <img src={thumbpicture} alt="Shoes" class="rounded-xl" />
             </figure>
